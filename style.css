@@ -83,6 +83,12 @@ summary::-webkit-details-marker {
   right: 0;
 }
 
+.header_link:hover path{
+  fill:#F16D7F;
+}
+
+
+
 .mobile-menu {
   position: absolute;
   top: 75px;
@@ -91,7 +97,7 @@ summary::-webkit-details-marker {
   -webkit-transition: right 0.6s;
   transition: right 0.6s;
   width: 232px;
-  background: #FFFFFF;
+  background: #ea0a0a;
   -webkit-box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
   padding: 32px;
@@ -734,6 +740,119 @@ summary::-webkit-details-marker {
   -ms-flex-align: center;
   align-items: center;
 }
+
+.subscribe{
+  background-image: url('img/photo_subscribe.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe{
+  padding-top: 104px;
+  padding-bottom: 104px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.subscribe_left{
+  width: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  line-height: normal;
+  word-spacing: 4px;
+  gap: 24px;
+}
+
+.subscribe_right{
+  width: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  gap: 13px;
+}
+
+.email_enter{
+  width: 256px;
+  height: 49px;
+  top: 243px;
+  left: 917px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.email_button{
+  width: 100px;
+  height: 49px;
+  top: 243px;
+  left: 1173px;
+  background: #F16D7F;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  color: #fff;
+  background-color: #000;
+  width:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: inherit;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-block-end: 30px;
+  padding-block-start: 40px;
+}
+
+.social_medias{
+  display: flex;
+  gap: 7px;
+}
+
+
+  
+
+
 
 
 @media (max-width: 1024px){
